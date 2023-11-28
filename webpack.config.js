@@ -1,4 +1,6 @@
 const path = require('path')
+const webpack = require('webpack')
+const HTMLWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'production', // development or production mode
@@ -8,4 +10,10 @@ module.exports = {
     path: path.resolve(__dirname, 'build'), // build dir
     clean: true, // clean at building
   },
+  plugins: [
+    new HTMLWebpackPlugin({
+      template: path.resolve(__dirname, 'public', 'index.html'), // index.html as template
+    }),
+    new webpack.ProgressPlugin(), // show build progress
+  ],
 }
