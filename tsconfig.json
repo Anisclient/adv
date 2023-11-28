@@ -1,11 +1,25 @@
 {
   "compilerOptions": {
+    // build dir, tuned in webpack.config.ts
     "outDir": "./dist/",
+    // highlight not typed
     "noImplicitAny": true,
-    "module": "es6",
+    "module": "ESNext",
+    // what specification do we compile into
     "target": "es5",
     "jsx": "react",
+    // compiler also process JS files
     "allowJs": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    // to import modules that use common js import
+    "esModuleInterop": true,
+    // if package does not have default import then loaders such as ts-loader or babel-loader create them
+    "allowSyntheticDefaultImports": true
+  },
+  // ts-node does not support any module syntax other than commonjs
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
   }
 }
