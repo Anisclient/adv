@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Anisclient/adv/issues"
   },
-  "homepage": "https://github.com/Anisclient/adv#readme"
+  "homepage": "https://github.com/Anisclient/adv#readme",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
 }
