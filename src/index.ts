@@ -1,3 +1,3 @@
 import { some } from './test'
 
-some()
+some(5)
