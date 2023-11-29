@@ -11,6 +11,11 @@
     // compiler also process JS files
     "allowJs": true,
     "moduleResolution": "node",
+    // absolute import
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     // to import modules that use common js import
     "esModuleInterop": true,
     // if package does not have default import then loaders such as ts-loader or babel-loader create them
