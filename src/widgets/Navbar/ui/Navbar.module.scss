@@ -4,7 +4,7 @@
   background: var(--inverted-bg-color);
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: var(--offset-md);
 }
 
 .links {
@@ -12,5 +12,5 @@
 }
 
 .mainLink {
-  margin-right: 20px;
+  margin-right: var(--offset-md);
 }
