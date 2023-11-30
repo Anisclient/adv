@@ -9,6 +9,13 @@
   .sidebar__lang {
     margin-left: var(--offset-sm);
   }
+
+  .sidebar__button {
+    color: var(--inverted-primary-color);
+    position: absolute;
+    right: 0;
+    padding: 0 var(--offset-sm);
+  }
 }
 
 .collapsed {
