@@ -5,6 +5,10 @@
 
   position: relative;
   transition: width 0.3s;
+
+  .sidebar__lang {
+    margin-left: var(--offset-sm);
+  }
 }
 
 .collapsed {
