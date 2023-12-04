@@ -2,6 +2,9 @@
   "Language": "En",
   "Loading": "Loading",
   "PageNotFound": "Page not found",
+  "UnexpectedError": "Unexpected error",
+  "ReloadPage": "Reload page",
+  "ThrowError": "Throw error",
   "navMain": "Main",
   "navAbout": "About"
 }
