@@ -1,6 +1,8 @@
 {
   "Language": "Русский",
   "ShortLanguage": "Ру",
+  "Login": "Войти",
+  "Modal": "Модальное окно",
   "Loading": "Загрузка",
   "PageNotFound": "Страница не найдена",
   "UnexpectedError": "Произошла непредвиденная ошибка",

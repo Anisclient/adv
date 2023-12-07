@@ -1,6 +1,8 @@
 {
   "Language": "English",
   "ShortLanguage": "En",
+  "Login": "Login",
+  "Modal": "Modal window",
   "Loading": "Loading",
   "PageNotFound": "Page not found",
   "UnexpectedError": "Unexpected error",
