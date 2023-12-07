@@ -1,5 +1,6 @@
 {
-  "Language": "En",
+  "Language": "English",
+  "ShortLanguage": "En",
   "Loading": "Loading",
   "PageNotFound": "Page not found",
   "UnexpectedError": "Unexpected error",

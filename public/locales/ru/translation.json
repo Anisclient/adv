@@ -1,5 +1,6 @@
 {
-  "Language": "Ру",
+  "Language": "Русский",
+  "ShortLanguage": "Ру",
   "Loading": "Загрузка",
   "PageNotFound": "Страница не найдена",
   "UnexpectedError": "Произошла непредвиденная ошибка",
