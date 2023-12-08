@@ -1,0 +1,10 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--offset-sm);
+  width: 400px;
+}
+
+.loginBtn {
+  margin-left: auto;
+}
