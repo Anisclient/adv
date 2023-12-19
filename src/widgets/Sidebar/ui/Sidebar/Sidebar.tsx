@@ -1,27 +1,32 @@
-import { useState } from 'react';
+import { memo, useMemo, useState } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
 import { LangSwitcher } from 'widgets/LangSwitcher';
 import { Button, ButtonSize, ThemeButton } from 'shared/ui/Button/Button';
-import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
 import { useTranslation } from 'react-i18next';
-import { RoutePath } from 'shared/config/routeConfig/routeConfig';
 import cls from './Sidebar.module.scss';
 import ArrowLeft from '../../../../shared/assets/icons/arrow-left.svg';
 import ArrowRight from '../../../../shared/assets/icons/arrow-right.svg';
-import MainIcon from '../../../../shared/assets/icons/main-20-20.svg';
-import AboutIcon from '../../../../shared/assets/icons/about-20-20.svg';
+import { SidebarItemList } from '../../model/items';
+import { SidebarItem } from '../SidebarItem/SidebarItem';
 
 interface SidebarProps {
   className?: string;
 }
 
-export const Sidebar = ({ className }: SidebarProps) => {
+export const Sidebar = memo(({ className }: SidebarProps) => {
   const [collapsed, setCollapset] = useState(false);
 
   const collapse = () => setCollapset((prev) => !prev);
 
   const { t } = useTranslation();
+
+  const itemsList = useMemo(
+    () => SidebarItemList.map((item) => (
+      <SidebarItem item={item} collapsed={collapsed} key={item.path} />
+    )),
+    [collapsed],
+  );
 
   return (
     <div
@@ -42,16 +47,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
       >
         {collapsed ? <ArrowRight /> : <ArrowLeft />}
       </Button>
-      <div className={cls.linkItems}>
-        <AppLink to={RoutePath.main} theme={AppLinkTheme.SECONDARY} className={cls.linkItem}>
-          <MainIcon className={cls.icon} />
-          <span className={cls.link}>{t('navMain')}</span>
-        </AppLink>
-        <AppLink to={RoutePath.about} theme={AppLinkTheme.SECONDARY} className={cls.linkItem}>
-          <AboutIcon className={cls.icon} />
-          <span className={cls.link}>{t('navAbout')}</span>
-        </AppLink>
-      </div>
+      <div className={cls.linkItems}>{itemsList}</div>
     </div>
   );
-};
+});

@@ -31,21 +31,6 @@
   flex-direction: column;
 }
 
-.linkItem {
-  margin-top: var(--offset-xs);
-  display: flex;
-  align-items: center;
-}
-
-.icon {
-  fill: var(--inverted-secondary-color);
-}
-
-.link {
-  margin-left: var(--offset-xs);
-  opacity: 1;
-}
-
 .collapsed {
   width: var(--sidebar-width-collapsed);
 
@@ -56,11 +41,5 @@
 
   .sidebar__lang {
     margin-left: 0;
-  }
-
-  .link {
-    opacity: 0;
-    transition: 0.2s opacity;
-    width: 0;
   }
 }
