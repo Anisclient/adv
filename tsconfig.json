@@ -10,6 +10,7 @@
     "jsx": "react-jsx",
     // compiler also process JS files
     "allowJs": true,
+    "strict": true,
     "moduleResolution": "node",
     // absolute import
     "baseUrl": ".",

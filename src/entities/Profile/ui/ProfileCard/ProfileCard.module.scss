@@ -1,0 +1,20 @@
+.profileCard {
+  padding: var(--offset-md);
+  border: 2px solid var(--inverted-bg-color);
+}
+
+.header {
+  display: flex;
+}
+
+.editBtn {
+  margin-left: auto;
+}
+
+.data {
+  margin-top: var(--offset-32);
+}
+
+.input {
+  margin-top: var(--offset-xs);
+}
