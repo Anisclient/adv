@@ -2,5 +2,20 @@
   "Profile": "Профиль",
   "Edit": "Редактировать",
   "Firstname": "Имя",
-  "Lastname": "Фамилия"
+  "Lastname": "Фамилия",
+  "Profile error title": "Произошла ошибка при загрузке профиля",
+  "Profile error text": "Попробуйте обновить страницу",
+  "Cancel": "Отменить",
+  "Save": "Сохранить",
+  "Age": "Возраст",
+  "City": "Город",
+  "Username": "Пользователь",
+  "Avatar": "Аватар",
+  "Currency": "Валюта",
+  "Country": "Страна",
+  "Server error": "Серверная ошибка",
+  "Incorrect age": "Некорректный возраст",
+  "Incorrect country": "Некорректный регион",
+  "Incorrect user data": "Имя и фамилия обязательны",
+  "No data": "Данные не указаны"
 }

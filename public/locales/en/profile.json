@@ -2,5 +2,20 @@
   "Profile": "Profile",
   "Edit": "Edit",
   "Firstname": "First Name",
-  "Lastname": "Last Name"
+  "Lastname": "Last Name",
+  "Profile error title": "Profile load error",
+  "Profile error text": "Try to reload page",
+  "Cancel": "Cancel",
+  "Save": "Save",
+  "Age": "Age",
+  "City": "City",
+  "Username": "Username",
+  "Avatar": "Avatar",
+  "Currency": "Currency",
+  "Country": "Country",
+  "Server error": "Server error",
+  "Incorrect age": "Incorrect age",
+  "Incorrect country": "Incorrect country",
+  "Incorrect user data": "First name and last name are required",
+  "No data": "No data"
 }

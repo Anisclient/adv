@@ -14,5 +14,7 @@
   "ThrowError": "Throw error",
   "navMain": "Main",
   "navProfile": "Profile",
-  "navAbout": "About"
+  "navAbout": "About",
+  "Currency": "Currency",
+  "Country": "Country"
 }

@@ -3,7 +3,6 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
 import { LangSwitcher } from 'widgets/LangSwitcher';
 import { Button, ButtonSize, ThemeButton } from 'shared/ui/Button/Button';
-import { useTranslation } from 'react-i18next';
 import cls from './Sidebar.module.scss';
 import ArrowLeft from '../../../../shared/assets/icons/arrow-left.svg';
 import ArrowRight from '../../../../shared/assets/icons/arrow-right.svg';
@@ -18,8 +17,6 @@ export const Sidebar = memo(({ className }: SidebarProps) => {
   const [collapsed, setCollapset] = useState(false);
 
   const collapse = () => setCollapset((prev) => !prev);
-
-  const { t } = useTranslation();
 
   const itemsList = useMemo(
     () => SidebarItemList.map((item) => (

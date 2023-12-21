@@ -1,0 +1,9 @@
+.profilePageHeader {
+  display: flex;
+  margin-bottom: var(--offset-md);
+
+  .editBtn {
+    margin-left: auto;
+    margin-right: var(--offset-xs);
+  }
+}

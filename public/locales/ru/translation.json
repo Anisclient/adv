@@ -14,5 +14,7 @@
   "ThrowError": "Выдать ошибку",
   "navMain": "Главная",
   "navProfile": "Профиль",
-  "navAbout": "О нас"
+  "navAbout": "О нас",
+  "Currency": "Валюта",
+  "Country": "Страна"
 }
