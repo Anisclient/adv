@@ -11,18 +11,88 @@
       "author": "author 2"
     }
   ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "JavaScipt news",
+      "subtitle": "What's new in JavaScipt in 2024",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 1005,
+      "createdAt": "10.01.2024",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "Hghjf fds df dfsfdsf dfsdfdf fdf ds4ywy ytr",
+            "Hghjf fds df dfsfdsf ",
+            "Hghjf fds df dfsfdsf dfsdfdf fdf ds4ywy ytr fds a gfghhfdgs 'gdfgdfsfs' dgsgsgdsf dd"
+          ]
+        },
+        {
+          "id": "2",
+          "type": "CODE",
+          "code": "<dialog>\n          <h2>Закрой меня!</h2>\n          <form method=\"dialog\">\n             <button>Закрыть</button>\n          </form>\n        </dialog>"
+        },
+        {
+          "id": "3",
+          "type": "TEXT",
+          "title": "Block title title 2",
+          "paragraphs": [
+            "Hghjf fds df dfsfdsf fsdjkf fds fdsfsdakf fd dfsd dfsdfdf fdf ds4ywy ytr",
+            "Hghjf fds df dfsfdsf fsdjkf fds fdsfsdakf fd dfsd  fdsf dfdsf dfsdfdf fdf ds4ywy ytr",
+            "Hghjf fds df dfsfdsf asasa ase ",
+            "Hghjf fds df dfsfdsf dfsdfdf fd fds a gfghhfdgs 'gdfgdfsfs' dgsgsgdsf dd"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "IMAGE",
+          "title": "Image 1",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/QEMU_6.2_screenshot_%28cropped%29.png"
+        },
+        {
+          "id": "5",
+          "type": "CODE",
+          "code": "function myFunction() {\n            console.log(this === window)\n          }\n          \n          let functionalExpression = function () {\n            console.log(this === window)\n          }\n          \n          myFunction()\n          functionalExpression()"
+        }
+      ]
+    }
+  ],
   "comments": [
     {
       "id": "1",
-      "body": "some comment",
-      "postId": "1"
+      "text": "some comment",
+      "articleId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "text": "some cool comment",
+      "articleId": "1",
+      "userId": "2"
+    },
+    {
+      "id": "3",
+      "text": "some comment 2 dsd j",
+      "articleId": "1",
+      "userId": "1"
     }
   ],
   "users": [
     {
       "id": "1",
       "username": "admin",
-      "password": "1234"
+      "password": "1234",
+      "role": "ADMIN"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "1234",
+      "role": "USER"
     }
   ],
   "profile": {
