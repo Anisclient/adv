@@ -5,3 +5,5 @@ export default lazy(
     /* webpackChunkName: "article-details-page" */ './ui/ArticleDetailsPage/ArticleDetailsPage'
   ),
 );
+
+export { ArticleDetailsCommentsSchema } from './model/types/ArticleDetailsCommentsSchema';

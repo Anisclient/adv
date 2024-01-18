@@ -1,0 +1,17 @@
+.commentCard {
+  padding: var(--offset-xs);
+  border: 1px solid var(--primary-color);
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
+
+  .username {
+    margin-left: var(--offset-xs);
+  }
+
+  .text {
+    margin-top: var(--offset-xs);
+  }
+}

@@ -86,13 +86,15 @@
       "id": "1",
       "username": "admin",
       "password": "1234",
-      "role": "ADMIN"
+      "role": "ADMIN",
+      "avatar": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZyYWxiZXJ0X2VpbnN0ZWluX3BvcnRyYWl0XzExNDQ5NjUtaW1hZ2Uta3oyZHpncGQuanBn.jpg"
     },
     {
       "id": "2",
       "username": "user",
       "password": "1234",
-      "role": "USER"
+      "role": "USER",
+      "avatar": "https://png.pngtree.com/thumb_back/fw800/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
     }
   ],
   "profile": {
