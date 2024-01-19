@@ -5,7 +5,7 @@ import { CommentCard } from './CommentCard';
 import { Comment } from '../../model/types/comment';
 
 export default {
-  title: 'entities/CommentCard',
+  title: 'entities/Comment/CommentCard',
   component: CommentCard,
   argTypes: {
     backgroundColor: { control: 'color' },
@@ -28,6 +28,11 @@ const comment: Comment = {
 export const Light = Template.bind({});
 Light.args = {
   comment,
+};
+
+export const Loading = Template.bind({});
+Loading.args = {
+  isLoading: true,
 };
 
 export const Dark = Template.bind({});

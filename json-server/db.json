@@ -19,7 +19,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1005,
       "createdAt": "10.01.2024",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -79,6 +81,42 @@
       "text": "some comment 2 dsd j",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "New comment",
+      "id": "fL5CpTA"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "My text comment gdffda",
+      "id": "3Mgw-up"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "comment by user",
+      "id": "4YDiqeh"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "comment by us 2er",
+      "id": "TMrjg1j"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "hgtd dsggbsd",
+      "id": "XJ1XwRv"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "новый коммент",
+      "id": "UOOnAFm"
     }
   ],
   "users": [
@@ -97,14 +135,28 @@
       "avatar": "https://png.pngtree.com/thumb_back/fw800/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
     }
   ],
-  "profile": {
-    "first": "Triple G",
-    "lastname": "Sokolov",
-    "age": 30,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Moscow",
-    "username": "admin",
-    "avatar": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZyYWxiZXJ0X2VpbnN0ZWluX3BvcnRyYWl0XzExNDQ5NjUtaW1hZ2Uta3oyZHpncGQuanBn.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Triple G",
+      "lastname": "Sokolov",
+      "age": 25,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "admin",
+      "avatar": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZyYWxiZXJ0X2VpbnN0ZWluX3BvcnRyYWl0XzExNDQ5NjUtaW1hZ2Uta3oyZHpncGQuanBn.jpg"
+    },
+    {
+      "id": "2",
+      "first": "Kim",
+      "lastname": "Gagarin",
+      "age": 25,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "user",
+      "avatar": "https://png.pngtree.com/thumb_back/fw800/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
+    }
+  ]
 }

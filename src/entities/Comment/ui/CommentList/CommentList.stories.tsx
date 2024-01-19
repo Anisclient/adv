@@ -5,7 +5,7 @@ import { CommentList } from './CommentList';
 import { Comment } from '../../model/types/comment';
 
 export default {
-  title: 'entities/CommentList',
+  title: 'entities/Comment/CommentList',
   component: CommentList,
   argTypes: {
     backgroundColor: { control: 'color' },
@@ -46,6 +46,11 @@ const comments: Comment[] = [
 export const Light = Template.bind({});
 Light.args = {
   comments,
+};
+
+export const Loading = Template.bind({});
+Loading.args = {
+  isLoading: true,
 };
 
 export const Dark = Template.bind({});

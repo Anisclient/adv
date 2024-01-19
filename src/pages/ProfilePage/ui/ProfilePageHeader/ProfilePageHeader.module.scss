@@ -2,8 +2,12 @@
   display: flex;
   margin-bottom: var(--offset-md);
 
-  .editBtn {
+  .btnsWrapper {
+    display: flex;
     margin-left: auto;
-    margin-right: var(--offset-xs);
+
+    .editBtn {
+      margin-right: var(--offset-xs);
+    }
   }
 }
